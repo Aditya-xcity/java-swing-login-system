@@ -1,30 +1,75 @@
-# LoginPage
+# 🚀 LoginPage (Java Swing Project)
 
-A simple Java Swing login UI project containing two forms:
-- Login screen
-- Create new password screen
+A simple and clean Java Swing-based desktop application that demonstrates a basic authentication UI.
 
-## Project Structure
-- LoginPage.java
-- LoginPage.form
-- createNewPassword.java
-- createNewPassword.form
+This project includes:
 
-## Requirements
-- JDK 8 or newer
+* 🔐 Login Screen
+* 🔑 Create New Password Screen
 
-## Compile
-From the project folder, run:
+---
 
+## 📁 Project Structure
+
+```
+LoginPage.java
+LoginPage.form
+createNewPassword.java
+createNewPassword.form
+```
+
+---
+
+## ⚙️ Requirements
+
+* Java Development Kit (JDK) 8 or higher
+* IntelliJ IDEA (recommended for handling `.form` files)
+
+---
+
+## 🛠️ Compile Instructions
+
+Open terminal in the project directory and run:
+
+```
 javac LoginPage.java createNewPassword.java
+```
 
-## Run
-If LoginPage is the entry point:
+---
 
+## ▶️ Run Instructions
+
+If `LoginPage` is the main class:
+
+```
 java LoginPage
+```
 
-If your main method is in a different class, run that class name instead.
+If another class contains the `main()` method, run that class instead:
 
-## Notes
-- This project appears to use IntelliJ GUI Designer .form files.
-- Keep .form and .java files together in the same source structure.
+```
+java ClassName
+```
+
+---
+
+## 📝 Notes
+
+* This project uses IntelliJ GUI Designer, so `.form` files are required.
+* Do not separate `.java` and `.form` files, as it may break the UI.
+* The current implementation focuses on UI and may use basic or hardcoded logic.
+
+---
+
+## 💡 Future Improvements
+
+* Connect login and signup using file handling or database
+* Add input validation and error handling
+* Improve UI design and layout
+* Implement a complete authentication system
+
+---
+
+## 📌 Author
+
+Aditya Bhardwaj
